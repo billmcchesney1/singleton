@@ -52,7 +52,7 @@ dependencies {
     compile ("org.springframework.boot:spring-boot-starter-jdbc"){
               exclude module: "tomcat-jdbc"
     }
-     compile "org.postgresql:postgresql:42.1.4"
+     compile "org.postgresql:postgresql:42.2.13"
      compile "com.alibaba:druid:1.1.8" 
      compile "commons-collections:commons-collections:$commonsCollectionsVersion"
 }
